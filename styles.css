@@ -90,19 +90,42 @@ a{
         flex-direction: column;
         width: 100%;
         height: 100vh;
-        margin-top: 5em;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .login-box{
-        width: 80%;
-        height: 40vh;
+        width: 100%;
+        height: 50vh;
         margin: 0 auto;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 0;
+        text-align: center;
+        padding: 3em;
     }
     .image-box{
         order: -1;
-        width: 80%;
-        height: 40vh;
+        width: 100%;
+        height: 50vh;
         margin: 0 auto;
-        border-radius: 20px 20px 0px 0px ;
+        border-radius: 0;
+    }
+    input{
+        width: 90%;
+    }
+    .email-img{
+   position: absolute;
+   top: 28%;
+   left: 6%;
+   }
+    .pass-img{
+    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    }
+    .btn{
+        margin-left: 1em;
+    }
+    button{
+        padding: 0.8em;
     }
 }
