@@ -100,7 +100,6 @@ a{
         margin: 0 auto;
         border-radius: 0;
         text-align: center;
-        padding: 3em;
     }
     .image-box{
         order: -1;
@@ -110,17 +109,17 @@ a{
         border-radius: 0;
     }
     input{
-        width: 90%;
+        width: 95%;
     }
     .email-img{
    position: absolute;
    top: 28%;
-   left: 6%;
+   left: 4%;
    }
     .pass-img{
     position: absolute;
     bottom: 10%;
-    left: 6%;
+    left: 4%;
     }
     .btn{
         margin-left: 1em;
